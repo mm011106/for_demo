@@ -16,7 +16,9 @@ tzUTC=pytz.utc
 
 localNow=datetime.datetime.now()
 
-print localNow
+# print localNow
+#  comment out for debug (new branch "debug1")
+
 
 localNowWithTz=tzJp.localize(localNow)
 print localNowWithTz

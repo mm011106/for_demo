@@ -19,6 +19,7 @@ localNow=datetime.datetime.now()
 # print localNow
 #  comment out for debug (new branch "debug1")
 
+# add comment (update "debug1" branch)
 
 localNowWithTz=tzJp.localize(localNow)
 print localNowWithTz
